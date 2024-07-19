@@ -1,0 +1,2357 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*{
+   color: #E3E6E6;
+   text-transform:capitalize;
+}
+.navbar{
+   height: 70px;
+   width: 100%;
+   background-color: black;
+   display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+
+
+}
+.logo{
+   padding:5px 20px 5px 1px;
+   background-color: black;
+   margin-right:5px 1px 10px 10px;
+   height: 25px;
+   width: 80px;
+   padding-left:15px ;
+   transition-duration: 0.4s; 
+   transition: border-width 0.3s; 
+   cursor: pointer; 
+   transition: font-size 25 case-in-out 0.25;
+ }
+
+ .logo:hover {
+   background-color: white; 
+   border: 3px;
+
+ }
+.loco{
+    padding-top:20px;
+    display: flex;
+}
+.address {
+    height: 50px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex; 
+    transition-duration: 0.4s; 
+    cursor: pointer;   
+     
+}
+.address:hover{
+    background-color: white;
+}
+.deliver {
+    height: 25px;
+    color: #cccccc;
+    padding:15px 1px 1px 1px;
+    font-size: small;
+   
+}
+
+.update {
+    color: white;
+    padding:1px 1px 30px1px;
+    font-size: small;
+    font-weight:700;
+    font-stretch:normal;
+
+    transition-duration: 0.4s; 
+    cursor: pointer;   
+}
+.update:hover{
+    background-color: white; 
+}
+.select{
+    display: flex;
+    padding-top: 10px;
+    margin-left: 20px;
+    outline-color:  #FEBD69;
+}
+.menubar{
+    height: 40px;
+    width: 50px;
+    color: black;
+    background-color: #cccccc;
+    display: flex; 
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+}
+.nav-search{
+    display: flex;
+    padding-top: 0px;
+    background: transparent;
+}
+.bar{
+    width: 37rem;
+    height:40px ;
+    padding:0px 0px 0px 10px;
+    outline-color: orange;
+    color: black;
+    font-size: medium;
+}
+.button{
+    height: 40px;
+    width: 35px;
+    background-color: #eba434;
+    display:flex ;
+    padding: 0px 2px 0px 5px;
+    align-items: center; 
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px;
+    outline-color: orange;
+}
+.img{
+    display: flex;
+    height: 30px;
+    width: 30px; 
+}
+.flag-image{
+    display: flex;
+    margin-left: 20px;
+    padding: 25px 0px 10px 1px;
+}
+.en{
+    width: 30px;
+    display: flex;
+    margin-left: 1px;
+    padding:24px 0px 0px 0px ;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.mini{
+    text-decoration: none;
+}
+
+.sign{
+    display: flex;
+    color: white;
+    font-size: small;
+    margin:0px 0px 0px 20px;
+    padding: 13px 0px 0px 0px ;
+}
+.list{
+    height: 10px;
+    display: flex;
+    margin:0px 0px 0px 20px;
+    font-size: 10px;
+    font-weight: 900;
+    font-size: small;
+}
+.orders-history{
+    height: 50px;
+    display: flex;
+    text-decoration: none;
+    font-size: 10px;
+    margin:0px 0px 0px 10px;
+    padding:15px 1px 10px 1px;
+}
+.return{
+    display:flex;
+    flex-direction: column;
+    height: 10px;
+    font-size: 12px;
+    padding:0px 0px 0px 1px; 
+}
+.orders{
+    display: flex;
+    font-size:small;
+    padding:1px 1px 1px 1px;
+    font-weight:1000;
+}
+.cart-image{
+    display: flex;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.navbar2{
+    background-color: #232F3E;
+    height: 33px;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+/* Sticks to the top when scrolling down */
+    top: 0; /* Stickiness starts from top */
+    z-index: 500; 
+    margin-top: 70px;
+
+}
+.content{
+    background-color: #E3E6E6;
+}
+.all-buton{
+    text-decoration: none;
+}
+.opt-buton{
+    margin: 0px 0px 0px 20px;
+    padding: 5px 0px 5px 0px;
+}
+.optall{
+    margin: 0px 0px 0px 10px;
+    padding: 7px 10px 0px 0px;
+    text-decoration: none;
+    font-weight:400;
+    font-size:bold;
+}
+.fresh{
+    margin: 0px 0px 0px 0px;
+    padding: 7px 10px 0px 0px;
+    text-decoration: none;
+    font-weight:600;
+    font-size: bolder;
+}
+.atv{
+    margin: 0px 0px 0px 10px;
+    padding: 7px 10px 0px 0px;
+    text-decoration: none;
+    font-weight:600;
+    font-size: small;
+}
+.sell{
+    margin: 0px 0px 0px 10px;
+    padding: 7px 10px 0px 0px;
+    text-decoration: none;
+    font-weight:500;
+    font-size: 35;
+}
+.best-seller{
+    margin: 0px 0px 0px 10px;
+    padding: 7px 10px 0px 0px;
+    text-decoration: none;
+    font-weight:400;
+    font-size:50;
+}
+.mobiles{
+    margin: 0px 0px 0px 10px;
+    padding: 7px 10px 0px 0px;
+    text-decoration: none;
+    font-weight:400;
+    font-size:15px;
+}
+.deals{
+    margin: 0px 0px 0px 10px;
+    padding: 7px 10px 0px 0px;
+    text-decoration: none;
+    font-weight:400;
+    font-size:15px;
+}
+.prime{
+    margin: 0px 0px 0px 10px;
+    padding: 7px 10px 0px 0px;
+    text-decoration: none;
+    font-weight:400;
+    font-size:15px;
+}
+.electronics{
+    margin: 0px 0px 0px 10px;
+    padding: 7px 10px 0px 0px;
+    text-decoration: none;
+    font-weight:400;
+    font-size:15px;
+}
+.c-service{
+    margin: 0px 0px 0px 10px;
+    padding: 7px 10px 0px 0px;
+    text-decoration: none;
+    font-weight:400;
+    font-size:15px;
+}
+.new{
+    margin: 0px 0px 0px 10px;
+    padding: 7px 10px 0px 0px;
+    text-decoration: none;
+    font-weight:400;
+    font-size:15px;
+}
+.offers{
+    margin: 0px 0px 0px 10px;
+    padding: px 10px 0px 40px;
+    text-decoration: none;
+}
+.banner{
+    margin: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 20px;
+    text-decoration: none;
+}
+
+.upper-img{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    margin:90px 30px -10px 40px;
+    position: absolute;
+   box-shadow: 5px 5px 10px white;
+
+}
+.upper-2img{
+    position: absolute;
+    transform: scalex(-1);
+    margin:90px 0px 0px 1340px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    box-shadow: 5px 5px 10px white;
+}
+.layout{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+.shop-all-deals{
+    height: 390px;
+    width: 315px;
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 900;
+    font-weight: 900;
+    background-color: white;
+    margin: 260px 0px 0px 20px;
+    padding:25px 0px 0px 15px ;
+    text-decoration: none;
+
+    
+}
+.deals-banner{
+    height: 303px;
+    width: 295px;
+    position: absolute;
+    display: flex;
+    padding-top: 10px;
+}
+.shop-offers{
+    color: #007185;
+    position: absolute;
+    display: flex;
+    margin-top: 350px;
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+
+
+}
+.deals-on-smartphones{
+    height: 390px;
+    width: 325px;
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size:large;
+    font-weight: 900;
+    background-color: white;
+    margin: 260px 0px 0px 375px;
+    padding:25px 0px 0px 20px;
+    text-decoration: none;
+}
+/* 1st iamge of mobile phones */
+.redmi{
+    position: absolute;
+    margin: 260px 0px 0px 375px;
+    padding:70px 0px 0px 20px ;
+}
+.poco-c6{ 
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 150px;
+}
+.budget-1{
+    position: absolute;
+    width: 150px;
+    font-weight:300;
+    font-size: small;
+    padding-top: 110px;
+    color: black;
+}
+/* 2nd image of mobile phones */
+.realme{
+    position: absolute;
+    margin: 260px 0px 0px 375px;
+    padding:70px 0px 0px 180px ;
+}
+.realme-c{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+   
+}
+/* 3rd image of mobile phones */
+.oneplus{
+    position: absolute;
+    height: 100px;
+    width: 80px;
+    margin: 260px 0px 0px 350px;
+    padding:230px 0px 0px 40px ;
+}
+.premium{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+  
+
+}
+/* 4rd image of mobile phones */
+
+.samsung{
+    position: absolute;
+    margin: 260px 0px 0px 375px;
+    padding:230px 0px 0px 180px ;
+}
+.ultra-premium{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+}
+.see{
+    position: absolute;
+    margin:265px 0px 0px 375px;
+    padding:370px 0px 0px 20px ;
+}
+.shop-offers-mobiles{
+    color: #007185;
+    position: absolute;
+    display: flex;
+    width: 150px;
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+/* bannner-2 */
+.banner-2{
+    height: 390px;
+    width: 320px;
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size:large;
+    font-weight: 900;
+    background-color: white;
+    margin: 260px 0px 0px 740px;
+    padding:25px 0px 0px 20px ;
+    text-decoration: none;
+}
+/* 1st image fashions */
+.banner-clothes{
+    position: absolute;
+    margin: 700px 0px 0px 1000px;
+    padding:70px 0px 0px 20px 
+}
+.clothes-img{
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin: 260px 0px 0px 735px;
+    padding:70px 0px 0px 20px 
+}
+.womens-clothes{
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    color:#232F3E;
+    margin: 405px 10px 0px 760px;
+    padding:30px 10px 0px 10px ; 
+    font-size: small;
+    font-weight: 400;
+}
+/*2 footwear */
+.footwear{
+    position: absolute;
+    margin: 260px 0px 0px 720px;
+    padding:70px 0px 0px 200px ; 
+}
+.handbags{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+}
+.w-foot-wear{
+    position: absolute;
+    height: 30px;
+    width: 170px;
+    color:#232F3E;
+    padding:105px 0px 0px 5px ; 
+    font-size: small;
+    font-weight: 400;
+}
+/* 3rd image  */
+.watches{
+    position: absolute;
+    margin: 260px 0px 0px 735px;
+    padding:230px 0px 0px 20px 
+}
+.watch-collections{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+}
+.watches-for{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    color: black;
+    padding:110px 0px 0px 15px ;
+    font-weight: 400;
+    font-size: small;
+}
+.fashions{
+    position: absolute;
+    margin: 400px 0px 0px 720px;
+    padding:90px 0px 0px 200px ; 
+}
+.jwellery-img{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+}
+.jwellery{
+    position: absolute;
+    height: 50px;
+    width: 170px;
+    color:#232F3E;
+    margin: 70px 0px 0px 5px;
+    padding:40px 0px 0px 0px ; 
+    font-size: small;
+    font-weight: 400;
+}
+/* .shop-offers-fashions{
+    color: #007185;
+    position: absolute;
+    display: flex;
+    width: 150px;
+    font-size: small;
+    font-weight: 500;
+    margin: 600px 0px 0px 300px ;
+    text-decoration: none;
+} */
+
+/* 3rd banner of home applinces */
+
+.home-styles{
+    height: 390px;
+    width: 320px;
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size:large;
+    font-weight: 900;
+    background-color: white;
+    margin: 260px 0px 0px 1100px;
+    padding:25px 0px 0px 20px ;
+    text-decoration: none;
+}
+        /* image div */
+.image-home-need{
+    position: absolute;
+    margin: 200px 0px 0px 1040px;
+    padding:70px 0px 0px 20px 
+}
+/* image positions */
+.image-of-covers{
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin: 60px 0px 0px 35px;
+    padding:0px 0px 0px 20px 
+}
+/*  text for the covers */
+.cover-text{
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    color:#232F3E;
+    margin: 125px 0px 0px 15px;
+    padding:40px 0px 0px 35px ; 
+    font-size: small;
+    font-weight: 400;
+}
+
+/* 2nd image in 2nd bannner */
+.figurines-div{
+    position: absolute;
+    margin: 0px 0px 0px 900px;
+    padding:70px 0px 0px 20px 
+}
+/* image position */
+.vases{
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin: 420px 0px 0px 100px;
+    padding:0px 0px 0px 90px 
+}
+/* text for firgues */
+.more-text{
+    display: flex;
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    color:#232F3E;
+    margin: 490px 0px 0px 0px;
+    padding:40px 0px 0px 190px ; 
+    font-size: small;
+    font-weight: 400;
+}
+    /* 3th  image for he image */
+.home{
+    position: absolute;
+    margin: 0px 0px 0px 900px;
+    padding:70px 0px 0px 20px 
+}
+/* image position of the 3rd image */
+.home-image{
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin: 420px 0px 0px 270px;
+    padding:0px 0px 0px 90px 
+}
+/* below text the lighting for the 3rd image */
+.home-text{
+    display: flex;
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    color:#232F3E;
+    margin: 0px 0px 0px 320px;
+    padding:530px 0px 0px 0px ; 
+    font-size: small;
+    font-weight: 400;
+}
+.shop-offers-fashions{
+    color: #007185;
+    position: absolute;
+    display: flex;
+    width: 150px;
+    font-size: small;
+    font-weight: 500;
+    margin: 0px 0px 0px 370px ;
+    text-decoration: none;
+}
+/* div position for of the 4th image */
+.lights{
+    position: absolute;
+    margin: 0px 0px 0px 900px;
+    padding:70px 0px 0px 20px 
+}
+/* image position of the 4th image */
+.lights-image{
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin: 260px 0px 0px 270px;
+    padding:0px 0px 0px 80px 
+}
+/* below text of the 4th image */
+.light-text{
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    color:#232F3E;
+    margin: 325px 0px 0px 0px;
+    padding:40px 0px 0px 330px ; 
+    font-size: small;
+    font-weight: 400;
+}
+.shop-offers-home{
+    color: #007185;
+    position: absolute;
+    display: flex;
+    width: 150px;
+    font-size: small;
+    font-weight: 500;
+    margin: 0px 0px 0px 725px ;
+    text-decoration: none;
+}
+.lower-img{
+    height: 600px;
+    width: 90rem;
+    display: flex;
+}
+
+/* 4th section of mobiles */
+
+.mobile-phones{
+    position: absolute;
+    display:flex;
+    height: 360px;
+    width: 1430px;
+    background-color: white;
+    margin: 80px 50px 0px 10px;
+}
+/* heading positions and sizes */
+.todaydeals{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0px 0px 0px 10px;
+}
+/* text of deals and its position */
+.see-all-deals{
+    position: absolute;
+    display: flex;
+    color: #007185;
+    width: 150px;
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    margin:20px 0px 0px 180px;
+}
+.div-redmi{
+    position: absolute;
+    display: flex;
+    height: 210px;
+    width: 240px;
+    margin:70px 0px 0px 20px ;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.redmi-12{
+padding: 0px 0px 0px 45px;
+
+}
+.redmi-offer{
+    position: absolute;
+
+    background-color: red;
+    height: 15px;
+    width: 100px;
+    font-size: smaller;
+
+}
+
+        /* samsung 24 ultra mobile */
+.div-samsung-ultra{
+    position:absolute;
+    display: flex;
+    height: 210px;
+    width: 240px;
+    margin:70px 0px 0px 270px ;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.samsung-s24{
+    padding-left: 20px;
+}
+
+ /* samsung m 54 5G mobile */
+ .div-samsung{
+    position:absolute;
+    display: flex;
+    height: 210px;
+    width: 240px;
+    margin:70px 0px 0px 520px ;
+    background-color: whitesmoke;
+    align-items: center;
+ }
+ .samsung-m34{
+    height: 190px;
+    width: 150px;
+    padding: 3px 0px 0px 38px;
+ }
+
+ /* IQOO Z9 mobile position */
+ .div-iQOO{
+    position:absolute;
+    display: flex;
+    height: 210px;
+    width: 240px;
+    margin:70px 0px 0px 770px ;
+    background-color: whitesmoke;
+    align-items: center;
+ }
+ .iQOO{
+    height: 190px;
+    width: 150px;
+    padding: 3px 0px 0px 38px;
+ }
+  /* IQOO Z7 mobile position */
+  .iqoo-z{
+    position:absolute;
+    display: flex;
+    height: 210px;
+    width: 240px;
+    margin:70px 0px 0px 1020px ;
+    background-color: whitesmoke;
+    align-items: center;
+  }
+  .iqoo-mobile{
+    height: 190px;
+    width: 150px;
+    padding: 3px 0px 0px 38px;
+  }
+  /* redmi 13c 5g mobile position */
+  .redmi-13c{
+    position:absolute;
+    display: flex;
+    height: 210px;
+    width: 155px;
+    margin:70px 0px 0px 1270px ;
+    background-color: whitesmoke;
+    align-items: center;
+  }
+  .redmi-12{
+    height: 190px;
+    width: 160px;
+    padding: 3px 0px 0px 0px;
+  }
+
+
+  /* description of the redmi mobile offer of first div redmi-12 */
+.redmi-deal{
+    display: flex;
+    position: absolute;
+    margin:290px 0px 0px 20px;
+}
+#redmi-offer{
+    background-color: red;
+    color:white;
+    text-decoration: none;
+}
+#redmi-12-deal{
+    color: red;
+    font-weight:400;
+
+
+}
+/* description of the redmi mobile of the second div of samsung  ultra mobile */
+.samsung-ultra-deal{
+display: flex;
+position: absolute;
+margin:290px 0px 0px 280px;
+}
+#samsung-ultra-offer{
+    background-color: red;
+    color: white;
+}
+#samsung-deal{
+    color: red;
+    font-weight:400;
+
+}
+
+ /* description of the  mobile of the second div of samsung m34 5g mobile */
+.samsung-m34-day-deal{
+    display: flex;
+    position: absolute;
+    margin:290px 0px 0px 520px;
+}
+#samsung-m34-offer{
+    background-color: red;
+    color:white;
+}
+#samsung-m34-deal{
+    color: red;
+    font-weight:400;
+
+}
+
+/* description of the mobile of the second div of IQOO Z9 mobile */
+.iqoo-z9-day-deal{
+    display: flex;
+    position: absolute;
+    margin:290px 0px 0px 770px;
+}
+#iqoo-z9-offer{
+    background-color: red;
+    color:white;
+}
+#iqoo-z9-deal{
+    color: red;
+    font-weight:400;
+
+}
+
+/* description of the mobile of the second div of IQOO Z7 mobile */ 
+.iqoo-z7-day-deal{
+    display: flex;
+    position: absolute;
+    margin:290px 0px 0px 1010px;
+}
+#iqoo-z7-offer{
+    background-color: red;
+    color:white;
+}
+#iqoo-z7-deal{
+    color: red;
+    font-weight:400;
+}
+/* description of the mobile of the second div of REDMI 13 C mobile */
+.redmi-13-day-deal{
+    display: flex;
+    position: absolute;
+    margin:290px 0px 0px 1260px;
+}
+#redmi-13-offer{
+    background-color: red;
+    color:white;
+    font-weight: 150px;
+    font-size:small;
+}
+#redmi-13-deal{
+    color: red;
+    font-weight:400;
+}
+#mobile{
+    color: black;
+    font-size: medium;
+    font-weight: 600;
+}
+#link{
+    text-decoration: none;
+}
+/* <!-----------------------------------4th banner in body content of women essential -----------------------------> */
+
+/* 1st banner in the 4th banner of the women essential */
+.women-essential{       /*height and width of the background div of the essential*/
+    display: flex;
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    background-color: white;
+    margin: 450px 0px 0px 20px;
+}
+#essential-heading{    /* top heading of the essentials of women*/
+    display: flex;
+    position:absolute;
+    color: black;
+    font-size: larger;
+    font-weight: 700;
+    margin: 20px 0px 0px 15px;
+}
+#image-pregnency-suppliments{
+    display: flex;
+    position: absolute;
+    width: 135px;
+    height: 100px;
+    padding: 70px 0px 0px 20px;
+}
+#under-tag{         /* under tag description of pregnency suppliments*/
+    display: flex;
+    position:absolute;
+    color:black;
+    font-size:11px;
+    font-weight: 600;
+    padding:170px 0px 0px 20px;
+}
+
+/* 2nd banner in the 4th banner of the women essential */
+#meterninity-image{
+    display: flex;
+    position: absolute;
+    width: 135px;
+    height: 100px;
+    margin:60px 0px 0px 160px;
+    padding:10px 0px 0px 15px;
+
+}
+/* below text of the metrninity sleep & loungewear */
+#below-tag-metrninity{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size:11px;
+    font-weight: 600;
+    margin:170px 0px 0px 175px;
+
+}
+/* <!-- about the meternity pillow of the 3rd banner  --> */
+#meterninity-pillow-image{
+    display: flex;
+    position: absolute;
+    width: 135px;
+    height: 100px;
+    margin: 210px 0px 0px 20px;
+}
+#tag-metrninity-sleep{         /* under tag description of pregnency suppliments*/
+    display: flex;
+    position:absolute;
+    color:black;
+    font-size:11px;
+    font-weight: 600;
+    margin: 310px 0px 0px 20px;
+}
+/* <!-- about metrnity skin care of the 4th imae in the 4th banner --> */
+#meterninity-skin-image{
+    display: flex;
+    position: absolute;
+    width: 135px;
+    height: 100px;
+    margin:210px 0px 0px 175px;
+
+
+}
+/* below text of the metrninity sleep & loungewear */
+#tag-metrninity-skin{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size:11px;
+    font-weight: 600;
+    margin:310px 0px 0px 175px;
+}
+/* end of the meternity things */
+
+#see-more{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 370px 0px 0px 20px;
+}
+/* zakir khans movie banner directed to mini tv  */
+.movie-banner{
+    display: flex;
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    background-color: white;
+    margin: 0px 0px 0px 360px; 
+}
+#movie-title{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 20px; 
+    font-weight: bolder;
+    margin:20px 0px 0px 20px
+}
+#zakir-movie-image{
+    display: flex;
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    margin: 100px 0px 0px 25px;
+}
+/* title of the zakir khans movie */
+#movie-below-tag{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    margin:365px 0px 0px 20px;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+/* end of movie bannner */
+.accessories-div{
+    display: flex;
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    background-color: white;
+    margin: 0px 0px 0px 715px; 
+} 
+/* title of the accessoricesc of bikes spare parts */
+#accessories-offer{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    margin: 20px 0px 0px 20px;
+}
+#image-accessories{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 260px;
+    margin: 90px 0px 0px 15px;
+}
+#see-more-3{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 370px 0px 0px 20px;
+}
+/* automative offers */
+.automotive-div{
+    display: block;
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    background-color: white;
+    margin: 0px 0px 0px 1070px;
+}
+#automotive-essential-heading{
+    display: flex;
+    position:absolute;
+    color: black;
+    font-size: larger;
+    font-weight: 700;
+    margin: 20px 0px 0px 15px; 
+}
+#image-cleaning-accessories{
+    display: flex;
+    position: absolute;
+    width: 135px;
+    height: 100px;
+margin: 70px 0px 0px 20px;
+}
+#cleaning-under-tag{
+    display: flex;
+    position:absolute;
+    color:black;
+    font-size:11px;
+    font-weight: 600;
+    margin: 170px 0px 0px 20px;
+}
+/* 2nd image */
+#image-tyre{
+    display: flex;
+    position: absolute;
+    width: 135px;
+    height: 100px;
+    margin:60px 0px 0px 160px;
+    padding:10px 0px 0px 15px;
+}
+#tyre-care-tag{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size:11px;
+    font-weight: 600;
+    margin:170px 0px 0px 175px;
+}
+/* 3rd image */
+#image-helemts{
+    display: flex;
+    position: absolute;
+    width: 135px;
+    height: 100px;
+    margin: 210px 0px 0px 20px;
+}
+#helemts-tag{
+    display: flex;
+    position:absolute;
+    color:black;
+    font-size:11px;
+    font-weight: 600;
+    margin: 310px 0px 0px 20px;
+}
+/* 4th image */
+#image-vacuum{
+    display: flex;
+    position: absolute;
+    width: 135px;
+    height: 100px;
+    margin:210px 0px 0px 175px;
+}
+#vacuum-tag{
+    display: flexbox;
+    position: absolute;
+    color: black;
+    font-size:11px;
+    font-weight: 600;
+    margin:310px 50px 0px 175px;
+}
+                        /* end of the banner */
+
+    /* <!-- best seller articians banner --> */
+.articians-banner{
+    display: block;
+    position: absolute;
+    background-color: white;
+    height: 300px;
+    width: 1410px;
+    margin: 420px 0px 0px 0px;
+}
+#artians-heading-text{
+    display: flex;
+    position:absolute;
+    color: black;
+    margin: 20px 0px 0px 20px;
+    font-weight: 700;
+    font-size: 23px;
+}
+#artians-more{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 30px 0px 0px 570px;
+}
+#vase-table-image{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 60px 0px 0px 20px;
+}
+#floortable-image{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 60px 0px 0px 230px;
+}
+#three-table-image{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 60px 0px 0px 440px;
+}
+#fourtable-image{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 60px 0px 0px 650px;
+}
+#sofaset-image{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 280px;
+    margin: 60px 0px 0px 860px;
+}
+#walldesign-image{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 60px 0px 0px 1150px;
+}
+#roundtable-image{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 50px;
+    margin: 60px 0px 0px 1350px;
+}
+      /*                end of artician banner                   */
+
+/* banner of bike and automobiles of different bikes frowm the browser  */
+/* background div of bikes */
+.bikes{
+    display: block;
+    position: absolute;
+    background-color: white;
+    height: 300px;
+    width: 1410px;
+    margin: 740px 0px 0px 0px;
+}
+#bike-heading{
+    display: flex;
+    position:absolute;
+    color: black;
+    margin: 20px 0px 0px 20px;
+    font-weight: 700;
+    font-size: 23px;
+}
+#bike-options{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: smaller;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 30px 0px 0px 400px;
+}
+#evbike{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    margin: 60px 0px 0px 10px;
+}
+#r15{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 240px;
+    margin: 60px 0px 0px 270px; 
+}
+#roadster{
+    display: flex;
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    margin: 60px 0px 0px 530px;
+}
+#honda-scooty{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 160px;
+    margin: 60px 0px 0px 770px;
+}
+#pluto-ev{
+    display: flex;
+    position: absolute;
+    height: 210px;
+    width: 200px;
+    margin: 60px 0px 0px 930px;
+}
+#new-ev{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    margin: 60px 0px 0px 1130px;
+}
+#yuvo-scooty{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 160px;
+    margin: 60px 0px 0px 1250px;
+}
+
+
+
+/* <!-- movie promotion on amezon minitv of dil logical.movie banner --> */
+.dil-logical{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    height: 400px;
+    width: 1300px;
+    margin: 1520px 0px 0px 70px;
+}
+#show-banner{
+    display: flex;
+    position: absolute;
+    height: 400px;
+    width: 540px; 
+    padding: 0px 0px 0px 20px;
+}
+#dil-logical-image{
+    display: flex;
+    position: absolute;
+    height: 400px;
+    width: 700px;
+    padding: 0px 0px 0px 580px;
+}
+#under-text{
+    display: flex;
+    position: absolute;
+    margin: 410px 0px 0px 450px;
+    color: #007185;
+    font-size: larger;
+    font-weight: 7000;
+    text-decoration: none;
+}
+/* end of the motor vehicles */
+.kitchens-homies{
+    display: block;
+    position: absolute;
+    background-color: white;
+    height: 300px;
+    width: 1410px;
+    margin: 1980px 0px 0px 20px;
+}
+#kitchen-heading{
+    display: flex;
+    position:absolute;
+    color: black;
+    margin: 20px 0px 0px 20px;
+    font-weight: 700;
+    font-size: 23px;
+}
+#presto{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 60px 0px 0px 20px;
+}
+#bin-covers{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 60px 0px 0px 260px;
+}
+#lunch-box{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 240px;
+    margin: 60px 0px 0px 500px;
+}
+#wheighting-machin{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 160px;
+    margin: 60px 0px 0px 780px;
+}
+#aer-adour{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 50px;
+    margin: 60px 0px 0px 1000px;
+}
+#wall-pins{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 60px 0px 0px 1100px;
+}
+#foils{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 50px;
+    margin: 60px 0px 0px 1350px;
+}
+/* end of the movie promption in amazon tv */
+.furniture{
+    display: block;
+    position: absolute;
+    background-color: white;
+    height: 300px;
+    width: 1410px;
+    margin: 2300px 0px 0px 20px;
+}
+#furniture-heading-text{
+    display: flex;
+    position:absolute;
+    color: black;
+    margin: 20px 0px 0px 20px;
+    font-weight: 600;
+    font-size: 21px;
+}
+#furniture-options{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: smaller;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 30px 0px 0px 770px;
+}
+#hanging-seat{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 160px;
+    margin: 60px 0px 0px 20px;
+}
+#triple-seat{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 190px;
+    margin: 60px 0px 0px 190px;
+}
+#sofa-appliance{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 220px;
+    margin: 60px 0px 0px 390px;
+}
+#sofa{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 60px 0px 0px 620px;
+}
+#sofa-bed{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin: 60px 0px 0px 830px;
+}
+#rabbit-light{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 180px;
+    margin: 60px 0px 0px 1040px;
+}
+#teddy-light{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 180px;
+    margin: 60px 0px 0px 1230px;
+}
+                /* shopping of watches from the live sales */
+.wrist-watches{
+    display: block;
+    position: relative;
+    background-color: white;
+    height: 300px;
+    width: 1410px;
+    margin: 2620px 0px 0px 20px;
+}
+#watches-heading{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: 600;
+    font-size: 21px;
+}
+#amazon-lives{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: smaller;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 10px 0px 0px 400px;
+}
+#watch-live{
+    display: flex;
+    position: absolute;
+    height: 230px;
+    width: 400px;
+    padding: 30px 0px 0px 10px;
+    border-radius: 5%;
+}
+/* <!-- noise-twist-watch --> */
+
+#noise-twist-watch{
+    display: flex;
+    position: absolute;
+    height: 250px;
+    width: 160px;
+    margin: 30px 0px 0px 420px;
+    border:  solid 1px black ;
+    border-radius: 5%;
+}
+#noise-twist{
+    display: flex;
+    position: absolute;
+    height: 140px;
+    width: 140px;
+}
+#noist-twist-description{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 140px 0px 0px 10px;
+}
+    /* <!-- firebolt-talk  -watch --> */
+
+.firebolt-talk-watch{
+    display: flex;
+    position: absolute;
+    height: 250px;
+    width: 160px;
+    margin: 30px 0px 0px 590px;
+    border:  solid 1px black ;
+    border-radius: 5%;
+}
+#firebolt-talk{
+    display: flex;
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    padding-top: 6px;
+}
+#firebolt-talk-description{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 140px 0px 0px 10px;
+}
+/* <!-- firebolt-artller-watch --> */
+
+.firebolt-artllery-watch{
+    display: flex;
+    position: absolute;
+    height: 250px;
+    width: 160px;
+    margin: 30px 0px 0px 760px;
+    border:  solid 1px black ;
+    border-radius: 5%;
+}
+#firebolt-artllery{
+    display: flex;
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    padding-top: 10px;
+}
+#firebolt-artllery-discription{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 160px 0px 0px 10px;
+}
+/* <!-- firebolt-quest-watch --> */
+
+.firebolt-quest-watch{
+    display: flex;
+    position: absolute;
+    height: 250px;
+    width: 160px;
+    margin: 30px 0px 0px 930px;
+    border:  solid 1px black ;
+    border-radius: 5%;
+}
+#firebolt-quest{
+    display: flex;
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    margin: 10px 0px 0px 0px;
+}
+#firebolt-quest-description{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 150px 0px 0px 10px;
+}
+/* <!-- firebolt-asphalt-watch --> */
+
+.firebolt-asphalt-watch{
+    display: flex;
+    position: absolute;
+    height: 250px;
+    width: 160px;
+    margin: 30px 0px 0px 1100px;
+    border:  solid 1px black ;
+    border-radius: 5%;
+}
+#firebolt-asphalt{
+    display: flex;
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    margin: 10px 0px 0px 0px;
+}
+#firebolt-asphalt-description{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 150px 0px 0px 10px;
+}
+/* <!-- firebolt-jewel-watch --> */
+
+.firebolt-jewel-watch{
+    display: flex;
+    position: absolute;
+    height: 250px;
+    width: 140px;
+    margin: 30px 0px 0px 1270px;
+    border:  solid 1px black ;
+    border-radius: 5%;
+}
+#firebolt-jewel{
+    display: flex;
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    margin: 10px 0px 0px 0px;
+}
+#firebolt-jewel-description{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 150px 0px 0px 10px;
+}
+/* indoor plants */
+.indoor{
+    display: flex;
+    position: absolute;
+    width: 350px;
+    height: 430px;
+    background-color: white;
+    margin:310px 0px 0px 0px;
+
+}
+#indoor-heading{
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 20px; 
+    font-weight: bolder;
+    margin: 20px;
+}
+#plant-image{
+    display: flex;
+    position: relative;
+    height: 290px;
+    width: 310px;
+    margin: 80px 0px 0px 20px;
+}
+#indoor-more{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: small;
+    font-weight: 500;
+    margin: 30px 0px 0px 20px;
+}
+/* the end of indoor plants */
+.best-sellers{
+    display: flex;
+    position: absolute;
+    width: 350px;
+    height: 430px;
+    background-color: white;
+    margin:310px 0px 0px 365px; 
+}
+#sellers-heading{
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 20px; 
+    font-weight: bolder;
+    margin: 20px 0px 0px 20px;
+}
+#shoes-image{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 110px;
+    margin: 80px 0px 0px 20px;
+}
+#shoes{
+    display: flex;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 300;
+    margin: 200px 0px 0px 20px;
+}
+/* 2nd image photo */
+#jewellery-image{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 110px;
+    margin: 80px 0px 0px 183px;
+}
+#jewellery-line{
+    display: flex;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 300;
+    margin: 200px 0px 0px 180px;
+}
+/* 3rd image photo */
+#Smartwatch{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 110px;
+    margin: 250px 0px 0px 20px;
+}
+#Smartwatch-line{
+    display: flex;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 300;
+    margin: 370px 0px 0px 20px;
+}
+/* 4th image bags and lagauges */
+#bag-img{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 110px;
+    margin: 250px 0px 0px 183px;
+}
+#bag-line{
+    display: flex;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 300;
+    margin: 370px 0px 0px 183px;
+}
+#offers-bags{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: small;
+    font-weight: 500;
+    margin: 400px 0px 0px 20px;
+}
+
+.home-appliances{
+    display: flex;
+    position: absolute;
+    width: 350px;
+    height: 430px;
+    background-color: white;
+    margin:310px 0px 0px 730px; 
+}
+#heading-appliances{
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 20px; 
+    font-weight: bolder;
+    margin: 20px 0px 0px 20px;
+}
+#ac-image{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 110px;
+    margin: 80px 0px 0px 20px;
+}
+#ac-name{
+    display: flex;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 300;
+    margin: 200px 0px 0px 20px;
+}
+            /* refrigirator */
+#refrigerator-img{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 110px;
+    margin: 80px 0px 0px 183px;
+}
+#refrigerator-name{
+    display: flex;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 300;
+    margin: 200px 0px 0px 180px;
+}
+        /* microwaves */
+#microwaves-img{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 110px;
+    margin: 250px 0px 0px 20px;
+}
+#microwaves-name{
+    display: flex;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 300;
+    margin: 370px 0px 0px 20px;
+}
+        /* washing machines */
+#washing-machine-img{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 110px;
+    margin: 250px 0px 0px 185px;
+}
+#machine-name{
+    display: flex;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 300;
+    margin: 370px 0px 0px 185px;
+}
+#appliances-more{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: small;
+    font-weight: 500;
+    margin: 400px 50px 0px 20px;
+}
+            /* best selling in interational */
+.selling-int{
+    display: flex;
+    position: absolute;
+    width: 320px;
+    height: 430px;
+    background-color: white;
+    margin:310px 0px 0px 1095px; 
+}
+#selling-heading{
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 20px; 
+    font-weight: bolder;
+    margin: 20px 0px 0px 20px;
+}
+#light-img{
+    display: flex;
+    position: relative;
+    height: 260px;
+    width: 300px;
+    margin: 80px 0px 0px 10px;
+}
+#light-more{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    font-size: small;
+    font-weight: 500;
+    margin: 50px 50px 0px 20px;
+}
+/* <!-- banner of lipstics and styles --> */
+.lipsticks{
+    display: block;
+    position: absolute;
+    background-color: white;
+    height: 300px;
+    width: 1415px;
+    margin: 760px 0px 0px 0px;
+}
+#lipstick-tittle{
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 20px; 
+    font-weight: bolder;
+    margin: 30px 0px 0px 20px;
+}
+#lipstick-option{
+    display: flex;
+    position: absolute;
+    color: #007185;
+    margin: 35px 0px 0px 370px;
+}
+#lipstick-1{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 160px;
+    margin: 80px 0px 0px 30px;
+    
+}
+#lipstick-2{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 90px;
+    margin: 80px 0px 0px 230px;
+    
+}
+#lipstick-3{
+    display: flex;
+    position: absolute;
+    height: 220px;
+    width: 100px;
+    margin: 80px 0px 0px 390px;
+    
+}
+#lipstick-4{
+    display: flex;
+    position: absolute;
+    height: 160px;
+    width: 250px;
+    margin: 120px 0px 0px 530px;
+    
+}
+#lipstick-5{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    margin: 80px 0px 0px 820px;
+    
+}
+#lipstick-6{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 60px;
+    margin: 80px 0px 0px 980px;
+    
+}
+#lipstick-7{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    margin: 80px 0px 0px 1100px;
+    
+}
+#lipstick-8{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    margin: 60px 0px 0px 1270px;
+    
+}
+/* end  */
+.sign-bottom{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    margin: 1061px 0px 0px 0px;
+}
+#hr-1{
+    display: flex;
+    position: absolute;
+    color: black;
+    width: 700px;
+}
+#heading-sign{
+    display: flex;
+    position: absolute;
+    color: black;
+    justify-content: center;
+    margin: 40px 0px 0px 600px;
+    font-size: smaller;
+}
+#signin-btn{
+    display: flex;
+    position: absolute;
+    color: black;
+    background: linear-gradient(to bottom, #ffd580,#ffc300);
+    width: 230px;
+    height: 30px;
+    margin: 60px 0px 0px 600px;
+    justify-content: center;
+    border-radius: 5px;
+    border-color: #d98a1ced;
+}
+#signin-txt{
+    display: flex;
+    position: absolute;
+    color: black;
+    padding-top: 5px;
+font-weight: 700;
+}
+#new-cstmr{
+    display: flex;
+    position: absolute;
+    margin: 95px 0px 0px 650px;
+    justify-content: center;
+    color: black;
+    font-size: x-small;
+}
+#strt-here{
+    display: flex;
+    position: absolute;
+    margin: 95px 0px 0px 730px;
+    color:#007185;
+    font-size: x-small;
+}
+.ftr-div{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    height: 20px;
+    width: 100%;
+    margin-top: 912px;
+}
+                    /* footer will start from here */
+.footer-1{
+    display: block;
+    position: absolute;
+    justify-content: center;
+    background-color: #405D72;
+    height: 40px;
+    width: 100%;
+    margin-top:930px ;
+}
+#back-top{
+    display: block;
+    position: absolute;
+    margin: 10px 0px 0px 700px;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 600;
+}
+.footer-2{
+    display: block;
+    position: absolute;
+    background-color: #253545;
+    height: 400px;
+    width: 100%;
+    margin-top: 970px;
+
+}#id-01{
+    display: flex;
+    position: absolute;
+    width: 200px;
+}
+#span-ftr-1{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    margin: 50px 0px 0px 200px;
+
+}
+#span-ftr{
+    position: absolute;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-top: 70px;
+    margin-left: 200px;
+    font-size: small;
+
+}
+/* first div closing here */
+#span-ftr-2{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    margin: -100px 0px 0px 500px;
+}
+#span-ftr-01{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    color: whitesmoke;
+margin: -80px 0px 0px 500px;
+    font-size: small;
+}
+/* 3rd row of headings with us */
+#span-ftr-3{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    margin: -210px 0px 0px 750px;
+}
+#span-ftr-02{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    color: whitesmoke;
+margin: -200px 0px 0px 750px;
+    font-size: small;
+}
+/* fourthline willl start  */
+#span-ftr-4{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    margin: -550px 0px 0px 1100px;
+}
+#span-ftr-03{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    color: whitesmoke;
+margin: -540px 0px 0px 1100px;
+    font-size: small;
+}
+.language{
+    display: flex;
+    position: absolute;
+    background-color:#253545;
+    height: 100px;
+    width: 100%;
+    margin-top: 1370.3px; 
+}
+#amazon-logo-png{
+
+    display: flex;
+    position: absolute;
+    background-color:#253545;
+    height: 23px;
+    width: 76px;
+    margin: 40px 0px 0px 570px; 
+}
+.language-selector{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding: 10px;
+    border: 0.5px solid white;
+    border-radius: 3px;
+    width: 100px;
+    margin: 30px 0px 0px 700px;
+    background: #253545;
+}
+#globe{
+    display: flex;
+    height: 15px;
+    width: 15px;
+}
+#english{
+    display: flex;
+    margin-left: 10px;
+    font-size:small;
+}
+#arrows-img{
+    display: flex;
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;
+}
+
+.language-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:black;
+    color: black;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    border: 1px solid #666;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.language-dropdown li {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.language-dropdown li input[type="radio"] {
+    margin-right: 10px;
+}
+
+.language-dropdown li:hover {
+    background-color:skyblue;
+    color: black;
+}
+
+.language-selector:hover .language-dropdown {
+    display: block;
+}
+.country-selector{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding: 10px;
+    border: 0.5px solid white;
+    border-radius: 3px;
+    width: 70px;
+    margin: 30px 0px 0px 840px;
+    background: #253545;
+}
+#flag-img{
+    display: flex;
+    height: 15px;
+    width: 20px;   
+}
+#india{
+    display: flex;
+    margin-left: 10px;
+    font-size: small;
+}
+/* end of the amazon footer last div */
+.features-amazon{
+    display: flex;
+    position:absolute;
+    background-color:#141f2b;
+    width: 100%;
+    height: 400px;
+    margin: 1470px 0px 0px 0px;
+    text-decoration: none;
+
+}
+#row-1{
+    position: absolute;
+    margin: 30px 0px 0px 200px;
+    text-decoration: none;
+
+}
+#row-2{
+    position: absolute;
+    margin: 30px 0px 0px 500px;
+    text-decoration: none;
+
+}
+#row-3{
+    position: absolute;
+    margin: 30px 0px 0px 750px;
+    text-decoration: none;
+}
+#row-4{
+    position: absolute;
+    margin: 30px 0px 0px 1100px;
+
+}
+#span-heading{
+    font-size: x-small;
+    font-weight: 800;
+    color: whitesmoke;
+
+}
+#span-3{
+    font-size: 13px;
+    color: #666;
+}
+a{
+    text-decoration: none;
+
+}
